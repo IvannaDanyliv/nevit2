@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif; 
+   
+}
+.logo{
+    border-radius: 25%;
+}
+.logo1{
+    float: left;
+}
+.nav{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-left:30px ;
+}
+h1{
+    padding-left: 18px;
+    font-size: 50px;
+}
+header{
+    border-bottom: 3px solid hsl(310, 100%, 87%);
+}
+a{
+    text-decoration: none;
+    color: indianred;
+} 
+body{
+
+font-size: 15px;
+
+}
+.day{
+float: left; 
+
+}
+
+
+.circle {
+    display: inline-block;
+    border: 10px solid hsl(310, 100%, 87%) ;
+    border-radius: 50%;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    left: 80px;
+    position: relative;
+}
+h1{
+    font-size: 25px;
+    margin-left: 50px;
+margin-bottom: 30px;
+text-shadow: 5px 5px 5px hsl(310, 100%, 87%) ;
+
+}
+td{
+    border: 3px dashed hsl(310, 100%, 87%);
+}
+main h1{
+    margin-left: 20px;
+   text-shadow: 3px 2px 5px hsl(310, 69%, 46%) ;
+}
+table{
+    height: 50%;
+    width: 50%;
+}
+td:hover{
+    background-color:rgb(144, 95, 183);
+    transition: 2s;
+}
+ a:hover{
+    background-color:rgb(109, 82, 135);
+    color: white;
+    transition: 2s;
+
+}
+.circle:hover{
+    border: 10px dashed rgb(65, 4, 69);
+    border-radius:50% ;
+}
+a:visited{
+    color: gray;
+}
+h1:hover{
+    transform:scale(3);
+    transition: 5s;
+    color: blueviolet;
+    opacity: 0.6;
+}
